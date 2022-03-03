@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name-equiv ="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedidoPasteleriainefable</title>
+  
+</head>
+<body>
+        <h1>Armemos tu orden</h1>
+        <form action="pedidopastel.js">
+            <label for="Nombre">¿Cuál es tu nombre?</label><br>
+            <input type="text" id="Nombre" name="Nombre"><br>
+            <label for="celular">Teléfono de contacto</label><br>
+            <input type="tel" name="celular" id="celular" maxlength="10"><br>
+            <label for="correo">Correo electrónico</label><br>
+            <input type="email" name="correo" id="correo"><br><br>
+            <label for="Nombre">Descripción general de tu pastel</label><br>
+            <input type="text" id="Descripción" name="Descripcion"><br>
+            <label for="pisos">¿Cuántos pisos tendrá tu pastel(1-4)</label><br>
+            <input type="number" name="pisos" id="pisos" min="1" max="4">
+           
+            <h2>Elige el sabor de tu pastel (puedes combinar hasta 2)</h2>
+            <input type="checkbox" id="sabor1" name="sabor1" value="Emoción intensa">
+            <label for="sabor1">Emoción intensa(4 Chocolates)</label><br>
+            <input type="checkbox" id="sabor2" name="sabor2" value="Sensación indescriptible">
+            <label for="sabor2">Sensación indescriptible(Pastel helado)</label><br>
+            <input type="checkbox" id="sabor3" name="sabor3" value="Hecho incomprensible">
+            <label for="sabor3">Hecho incomprensible(Tres leches)</label><br>
+            <input type="checkbox" id="sabor4" name="sabor4" value="Hecho incomprensible">
+            <label for="sabor4">Experiencia extraordinaria(Cheescake)</label><br><br>           
+           
+            <h2>Elige los adornos de tu pastel (puedes combinar hasta 2)</h2>
+            <input type="checkbox" id="adorno1" name="adorno1" value="Frutanatural">
+            <label for="adorno1">Fruta natural</label><br>
+            <input type="radio" id="Fresa" name="adorno1" value="Fresa">
+            <label for="Fresa">Fresa</label><br>
+            <input type="radio" id="Kiwi" name="adorno1" value="Kiwi">
+            <label for="Kiwi">Kiwi</label><br>
+            <input type="radio" id="Durazno" name="adorno1" value="Mango">
+            <label for="Mango">Mango</label><br><br>
+
+            <input type="checkbox" id="adorno2" name="adorno2" value="Dulcesagranel">
+            <label for="adorno2">Dulces agranel</label><br>
+            <input type="radio" id="Gusanos" name="adorno2" value="Gusanos">
+            <label for="Gusanos">Gusanos</label><br>
+            <input type="radio" id="Panditas" name="adorno2" value="Panditas">
+            <label for="Panditas">Panditas</label><br>
+            <input type="radio" id="Salvavidas" name="adorno2" value="Salvavidas">
+            <label for="Salvavidas">Salvavidas</label><br><br>
+
+            <input type="checkbox" id="adorno3" name="adorno3" value="Fondant">
+            <label for="sabor3">Fondant (menciona el personaje y/o adjunta la foto que te gustaría que incluyeramos)</label><br>
+            <label for="Personaje">¿Qué personaje deseas?</label><br>
+            <input type="Personaje" id="Personaje" name="Personaje"><br>
+            <input type="file" id="archivo1" name="archivo1" multiple><br><br>
+         
+            <input type="checkbox" id="adorno4" name="adorno4" value="Chocolates">
+            <label for="adorno4">Chocolates</label><br>
+            <input type="radio" id="Ferrero" name="adorno4" value="Ferrero">
+            <label for="Ferrero">Ferrero</label><br>
+            <input type="radio" id="CarlosV" name="adorno4" value="CarlosV">
+            <label for="CarlosV">Carlos V</label><br>
+            <input type="radio" id="Conejito" name="adorno4" value="Conejito">
+            <label for="Conejito">Conejito</label><br><br>
+            
+            <input type="reset">    
+            <input type="submit">
+            
+            
+        </form>   
+        <a href="PASTELERIA.html">
+            <input type='button' name='boton' value='volver al menú' style='width:70px; height:25px'> 
+            </a>
+</body>
+</html>
